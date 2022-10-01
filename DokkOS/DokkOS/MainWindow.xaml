@@ -1,0 +1,22 @@
+﻿<Window x:Class="DokkOS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DokkOS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="1300" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="69*"/>
+            <ColumnDefinition Width="581*"/>
+        </Grid.ColumnDefinitions>
+        <Image x:Name="Background" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="1300" Source="/Background.jpg" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Image x:Name="SideBar" HorizontalAlignment="Left" Height="700" Margin="973,0,0,0" VerticalAlignment="Top" Width="200" Source="/Side-Bar.jpg" Grid.Column="1"/>
+        <Image x:Name="Top_Bar" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="1111" Source="/Top-Bar.jpg" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnCam" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,199,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1"/>
+        <Button x:Name="btnDrone" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,322,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1"/>
+        <Button x:Name="btnRing" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,445,0,0" VerticalAlignment="Top" Height="209" Width="142" Opacity="0.1"/>
+
+    </Grid>
+</Window>
