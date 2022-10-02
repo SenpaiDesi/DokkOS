@@ -9,12 +9,14 @@
 
   <ItemGroup>
     <None Remove="Background.jpg" />
+    <None Remove="icon.ico" />
     <None Remove="Side-Bar.jpg" />
     <None Remove="Top-Bar.jpg" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Background.jpg" />
+    <Resource Include="icon.ico" />
     <Resource Include="Side-Bar.jpg" />
     <Resource Include="Top-Bar.jpg" />
   </ItemGroup>

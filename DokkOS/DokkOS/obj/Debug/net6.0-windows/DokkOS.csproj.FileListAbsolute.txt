@@ -19,3 +19,24 @@ C:\Users\Kyzo Cryptoboy\Desktop\Dokk\DokkOS\DokkOS\obj\Debug\net6.0-windows\refi
 C:\Users\Kyzo Cryptoboy\Desktop\Dokk\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.pdb
 C:\Users\Kyzo Cryptoboy\Desktop\Dokk\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.genruntimeconfig.cache
 C:\Users\Kyzo Cryptoboy\Desktop\Dokk\DokkOS\DokkOS\obj\Debug\net6.0-windows\ref\DokkOS.dll
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\DokkOS.exe
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\DokkOS.deps.json
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\DokkOS.runtimeconfig.json
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\DokkOS.dll
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\DokkOS.pdb
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.csproj.AssemblyReference.cache
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS_MarkupCompile.cache
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS_MarkupCompile.lref
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.g.resources
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.AssemblyInfoInputs.cache
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.AssemblyInfo.cs
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.csproj.CoreCompileInputs.cache
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.dll
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\refint\DokkOS.dll
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.pdb
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.genruntimeconfig.cache
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\ref\DokkOS.dll

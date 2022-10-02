@@ -1,32 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kyzo Cryptoboy\\Desktop\\Dokk\\DokkOS\\DokkOS\\DokkOS.csproj": {}
+    "C:\\Users\\Desi\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\DokkOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kyzo Cryptoboy\\Desktop\\Dokk\\DokkOS\\DokkOS\\DokkOS.csproj": {
+    "C:\\Users\\Desi\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\DokkOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kyzo Cryptoboy\\Desktop\\Dokk\\DokkOS\\DokkOS\\DokkOS.csproj",
+        "projectUniqueName": "C:\\Users\\Desi\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\DokkOS.csproj",
         "projectName": "DokkOS",
-        "projectPath": "C:\\Users\\Kyzo Cryptoboy\\Desktop\\Dokk\\DokkOS\\DokkOS\\DokkOS.csproj",
-        "packagesPath": "C:\\Users\\Kyzo Cryptoboy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kyzo Cryptoboy\\Desktop\\Dokk\\DokkOS\\DokkOS\\obj\\",
+        "projectPath": "C:\\Users\\Desi\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\DokkOS.csproj",
+        "packagesPath": "C:\\Users\\Desi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Desi\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kyzo Cryptoboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Desi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

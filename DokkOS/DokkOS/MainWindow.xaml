@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DokkOS"
         mc:Ignorable="d"
-        Title="MainWindow" Height="700" Width="1300" ResizeMode="NoResize">
+        Title="DokkOS" Height="700" Width="1300" ResizeMode="NoResize" Icon="/icon.ico" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="69*"/>
@@ -17,6 +17,7 @@
         <Button x:Name="btnCam" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,199,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1"/>
         <Button x:Name="btnDrone" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,322,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1"/>
         <Button x:Name="btnRing" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,445,0,0" VerticalAlignment="Top" Height="209" Width="142" Opacity="0.1"/>
+        <Label x:Name="OutPutText" Grid.Column="1" Content="Output" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Height="580" Width="855" Foreground="#FFFFCB42" FontSize="24" FontFamily="Yu Gothic" FontWeight="Bold"/>
 
     </Grid>
 </Window>
