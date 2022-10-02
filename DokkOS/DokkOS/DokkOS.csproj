@@ -5,6 +5,13 @@
     <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <Title>Dokkaebi Os</Title>
+    <Description>An fan made Hacking tool as a contribution towards Tom clancy's Rainbow Six siege
+Operator Dokkaebi</Description>
+    <Copyright>The Slayer, Senpai_Desi</Copyright>
+    <PackageProjectUrl>https://www.codechaos.net/tools</PackageProjectUrl>
+    <PackageIcon>icon.ico</PackageIcon>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +26,17 @@
     <Resource Include="icon.ico" />
     <Resource Include="Side-Bar.jpg" />
     <Resource Include="Top-Bar.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Images\icon.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
 
 </Project>

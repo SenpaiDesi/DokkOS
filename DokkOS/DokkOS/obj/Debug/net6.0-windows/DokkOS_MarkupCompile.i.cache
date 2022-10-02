@@ -1,5 +1,5 @@
 ﻿DokkOS
-1.0.0.0
+1.0.1.0
 
 winexe
 C#
@@ -16,5 +16,5 @@ C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\App.xaml
 194-1103864946
 MainWindow.xaml;
 
-True
+False
 

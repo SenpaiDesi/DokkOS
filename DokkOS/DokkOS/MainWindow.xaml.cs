@@ -22,7 +22,13 @@ namespace DokkOS
     {
         public MainWindow()
         {
-            InitializeComponent();
+            InitializeComponent()
+        }
+
+        public void StoppingDOkk()
+        {
+            Environment.Exit(0);
         }
     }
+
 }
