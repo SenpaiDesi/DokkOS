@@ -10,7 +10,7 @@
     <Window.TaskbarItemInfo>
         <TaskbarItemInfo x:Name="DokkOs" Description="Fan Made Dokkaebi related Tool set" ProgressState="Paused" ProgressValue="1"/>
     </Window.TaskbarItemInfo>
-    <Grid>
+    <Grid Loaded="tcp_listener">
         <Grid.RowDefinitions>
             <RowDefinition Height="313*"/>
             <RowDefinition Height="371*"/>
@@ -22,10 +22,10 @@
         <Image x:Name="Background" HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="1300" Source="/Background.jpg" Stretch="Fill" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
         <Image x:Name="SideBar" HorizontalAlignment="Left" Height="700" Margin="973,0,0,0" VerticalAlignment="Top" Width="200" Source="/Side-Bar.jpg" Grid.Column="1" Grid.RowSpan="2"/>
         <Image x:Name="Top_Bar" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="1111" Source="/Top-Bar.jpg" Grid.ColumnSpan="2"/>
-        <Button x:Name="btnCam" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,199,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1"/>
-        <Button x:Name="btnDrone" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,9,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1" Grid.Row="1"/>
-        <Button x:Name="btnRing" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,132,0,0" VerticalAlignment="Top" Height="209" Width="142" Opacity="0.1" Grid.Row="1"/>
-        <Label x:Name="OutPutText" Grid.Column="1" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Height="580" Width="855" Foreground="#FFFFCB42" FontSize="24" FontFamily="Yu Gothic" FontWeight="Bold" Grid.RowSpan="2"/>
+        <Button x:Name="btnCam" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,199,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1" Click="btnCam_Click"/>
+        <Button x:Name="btnDrone" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,15,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1" Grid.Row="1"/>
+        <Button x:Name="btnRing" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,139,0,0" VerticalAlignment="Top" Height="209" Width="142" Opacity="0.1" Grid.Row="1" Click="tcp_listener"/>
+        <Label x:Name="OutPutText" Grid.Column="1" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,74,0,0" VerticalAlignment="Top" Height="580" Width="855" Foreground="White" FontSize="24" FontFamily="Yu Gothic" FontWeight="Bold" Grid.RowSpan="2"/>
 
     </Grid>
 </Window>

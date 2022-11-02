@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "AvRKjVViQ24K4P0FZcBbt70bs38G75r5hsE8KHZVxLrGv4hfHzo0aLO2TEYSqR5hsruOdWlttRNynpWntBik/w==",
+  "dgSpecHash": "e89ogBcz82ELAWI3ujFVFQpj0mq+447O7Kt6qBTkakNEbM54B2DiJHGJ6dSvvvrka9N1VxYcQeNHy0jvma9G+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Desi\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\DokkOS.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Desi\\.nuget\\packages\\grpc.core\\2.46.5\\grpc.core.2.46.5.nupkg.sha512",
+    "C:\\Users\\Desi\\.nuget\\packages\\grpc.core.api\\2.46.5\\grpc.core.api.2.46.5.nupkg.sha512",
+    "C:\\Users\\Desi\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
   "logs": []
 }

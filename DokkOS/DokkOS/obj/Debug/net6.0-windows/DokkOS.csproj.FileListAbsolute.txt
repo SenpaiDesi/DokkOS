@@ -40,3 +40,11 @@ C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\ref
 C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.pdb
 C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.genruntimeconfig.cache
 C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\ref\DokkOS.dll
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\Grpc.Core.dll
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\Grpc.Core.Api.dll
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\runtimes\linux-arm64\native\libgrpc_csharp_ext.arm64.so
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\runtimes\linux-x64\native\libgrpc_csharp_ext.x64.so
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\runtimes\osx-x64\native\libgrpc_csharp_ext.x64.dylib
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\runtimes\win-x64\native\grpc_csharp_ext.x64.dll
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\bin\Debug\net6.0-windows\runtimes\win-x86\native\grpc_csharp_ext.x86.dll
+C:\Users\Desi\Documents\GitHub\DokkOS\DokkOS\DokkOS\obj\Debug\net6.0-windows\DokkOS.csproj.CopyComplete
