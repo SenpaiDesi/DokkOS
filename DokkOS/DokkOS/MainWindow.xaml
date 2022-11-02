@@ -10,7 +10,7 @@
     <Window.TaskbarItemInfo>
         <TaskbarItemInfo x:Name="DokkOs" Description="Fan Made Dokkaebi related Tool set" ProgressState="Paused" ProgressValue="1"/>
     </Window.TaskbarItemInfo>
-    <Grid Loaded="tcp_listener">
+    <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="313*"/>
             <RowDefinition Height="371*"/>
@@ -24,8 +24,9 @@
         <Image x:Name="Top_Bar" HorizontalAlignment="Left" Height="66" VerticalAlignment="Top" Width="1111" Source="/Top-Bar.jpg" Grid.ColumnSpan="2"/>
         <Button x:Name="btnCam" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,199,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1" Click="btnCam_Click"/>
         <Button x:Name="btnDrone" Grid.Column="1" Content="" HorizontalAlignment="Left" Margin="997,15,0,0" VerticalAlignment="Top" Height="104" Width="138" Opacity="0.1" Grid.Row="1"/>
-        <Button x:Name="btnRing" Grid.Column="1" Content="" Margin="993,140,10,0" VerticalAlignment="Top" Height="211" Opacity="0.1" Grid.Row="1" Click="tcp_listener"/>
+        <Button x:Name="btnRing" Grid.Column="1" Content="" Margin="993,140,10,0" VerticalAlignment="Top" Height="211" Opacity="0.1" Grid.Row="1"/>
         <Label x:Name="OutPutText" Content="&#xD;&#xA;" HorizontalAlignment="Left" Margin="69,97,0,0" VerticalAlignment="Top" Height="542" Width="1001" Foreground="White" FontSize="24" FontFamily="Yu Gothic" FontWeight="Bold" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <TextBox Name="LatencyBox" Grid.Column="1" HorizontalAlignment="Left" Margin="118,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" SelectionOpacity="0" BorderThickness="0,0,0,0" Background="{x:Null}" Foreground="#FFFDF9F9"/>
 
     </Grid>
 </Window>

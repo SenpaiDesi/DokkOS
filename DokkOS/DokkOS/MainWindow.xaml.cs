@@ -14,6 +14,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Net.Sockets;
 using System.Net;
+using System.Threading;
+using System.Net.NetworkInformation;
 
 namespace DokkOS
 {
@@ -24,10 +26,10 @@ namespace DokkOS
     {
         public MainWindow()
         {
-            InitializeComponent();
+                InitializeComponent();
         }
 
-        public void StoppingDOkk()
+    public void StoppingDOkk()
         {
             Environment.Exit(0);
             OutPutText.Content = "Goodbye";
@@ -66,30 +68,25 @@ namespace DokkOS
             OutPutText.Content += "Authentication: " + s4;
 
         }
+
+        public async void Pinger()
+        {
+            Ping pingSender = new Ping();
+            string host = "81.169.145.149";
+            await Task.Run(() =>
+            {
+                PingReply reply = pingSender.Send(host);
+                if (reply.Status == IPStatus.Success)
+                {
+                    string mstext = reply.RoundtripTime.ToString();
+                    LatencyBox.Text = "{mstext} ms";
+                }
+            });
+        }
         private void btnCam_Click(object sender, RoutedEventArgs e)
         {
             ShowConnectSSID();
-
-        }
-        private void tcp_listener(object sender, EventArgs e)
-        {
-            Int32 port = 1400;
-            IPAddress localAddr = IPAddress.Parse("127.0.0.1");
-            TcpListener server = new TcpListener(localAddr, port);
-            server.Start();
-            Byte[] bytes = new Byte[256];
-            string data = null;
-            // listen loop
-            while (true)
-            {
-                Console.WriteLine("Waiting for connection....");
-                using TcpClient client = server.AcceptTcpClient();
-                Console.WriteLine("Connected!");
-            }
-        }
-
-        private void tcp_listener(System.Object sender, System.Windows.RoutedEventArgs e)
-        {
+            Pinger();
 
         }
     }
