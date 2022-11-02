@@ -149,25 +149,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Desi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Kyzo Cyptoboy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Desi\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\DokkOS.csproj",
+      "projectUniqueName": "C:\\Users\\Kyzo Cyptoboy\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\DokkOS.csproj",
       "projectName": "DokkOS",
-      "projectPath": "C:\\Users\\Desi\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\DokkOS.csproj",
-      "packagesPath": "C:\\Users\\Desi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Desi\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\obj\\",
+      "projectPath": "C:\\Users\\Kyzo Cyptoboy\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\DokkOS.csproj",
+      "packagesPath": "C:\\Users\\Kyzo Cyptoboy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Kyzo Cyptoboy\\Documents\\GitHub\\DokkOS\\DokkOS\\DokkOS\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Desi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Kyzo Cyptoboy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0-windows"

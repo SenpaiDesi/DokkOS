@@ -86,9 +86,6 @@ namespace DokkOS
                 using TcpClient client = server.AcceptTcpClient();
                 Console.WriteLine("Connected!");
             }
-
-
-
         }
 
         private void tcp_listener(System.Object sender, System.Windows.RoutedEventArgs e)
